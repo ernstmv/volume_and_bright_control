@@ -10,7 +10,7 @@ mp_drawing_style = mp.solutions.drawing_styles
 mp_hands = mp.solutions.hands
 
 images_paht = "./hand_images"
-image_name = "hand_one.jpeg"
+image_name = "hand_two.jpg"
 image_path1 = os.path.join(images_paht, image_name)
 
 image = cv2.imread(image_path1)
