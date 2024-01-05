@@ -11,7 +11,7 @@ N_HANDS = 2
 mp_drw = mp.solutions.drawing_utils
 mp_drw_stl = mp.solutions.drawing_styles
 mp_hnds = mp.solutions.hands
-hands = mp_hnds.Hands(max_num_hands = N_HANDS)
+hands = mp_hnds.Hands(max_num_hands = N_HANDS, min_detection_confidence = 0.9)
 
 
 def set_bright(brightness):
